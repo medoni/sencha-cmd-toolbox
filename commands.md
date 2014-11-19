@@ -15,3 +15,8 @@ sencha ant -p build.environment=testing refresh # refreshes javascript only (tes
 sencha ant sass                                 # builds Sass (Theme)
 sencha ant -p build.environment=testing sass    # builds Sass (Theme, testing) 
 ```
+
+# Slicer
+```
+sencha ant slice
+```
