@@ -14,7 +14,12 @@ sencha ant -p build.id=BUILDDESCR refresh       # refreshes a single build descr
 # Sass
 ```
 sencha ant sass                                 # builds Sass (Theme)
-sencha ant -p build.environment=testing sass    # builds Sass (Theme, testing) 
+sencha ant -p build.environment=testing sass    # builds Sass (Theme, testing)
+```
+
+build Sass with build descriptor and environment
+```
+sencha ant -p build.id={build-descr} -p build.name={build-descr} -p build.environment=testing sass
 ```
 
 # Slicer
